@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+traffic_env/
+venv/
+.env
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Outputs and temporary
+outputs/
+*.log
+
+data/*.mp4
+
+# Model weights (large files) - recommend using Git LFS or storing externally
+yolov8n.pt
+models/*.pt
+
+# Python egg
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dist
+dist/
+build/
+
+# Secrets
+.env
+
